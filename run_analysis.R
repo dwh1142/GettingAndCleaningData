@@ -40,7 +40,7 @@ names(dataset) <- gsub("BodyBody", "Body", names(dataset))
 
 #create tidy dataset
 tidyData <- dataset %>% 
-  group_by(subject,activity) %>%
+  group_by(Subject,Activity) %>%
   summarize_each(funs(mean))
 
 names(tidyData)[-c(1,2)] <- gsub("^?", "Mean", names(tidyData)[-c(1,2)])
