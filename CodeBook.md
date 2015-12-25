@@ -2,7 +2,6 @@
 
 
 ##Original Data Set Feature Selection 
-=================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -74,10 +73,10 @@ tBodyGyroJerkMean
 ###Script
 
 The script included with this Code Book does the following:
-1.)Merges the training, test, subject, and activity data sets into one common dataset
-2.)Subsets the complete dataset to create a new dataset with only those variables, which have the words "mean" or "std" (referring to mean and standard deviation)
-3.)Removes all unnecesarry characters from the variable names to make them more readable
-4.)Summarizes the merged datasets to calculate the mean of each variable, grouped by test subject and activity, to ultimately create a final 'tidyDataSet.txt'
+1. Merges the training, test, subject, and activity data sets into one common dataset
+2. Subsets the complete dataset to create a new dataset with only those variables, which have the words "mean" or "std" (referring to mean and standard deviation)
+3. Removes all unnecesarry characters from the variable names to make them more readable
+4. Summarizes the merged datasets to calculate the mean of each variable, grouped by test subject and activity, to ultimately create a final 'tidyDataSet.txt'
 
 
 ###Variables
