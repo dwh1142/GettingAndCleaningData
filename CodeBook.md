@@ -72,83 +72,82 @@ tBodyGyroJerkMean
 
 ###Script
 
-The script included with this Code Book does the following:
-1. Merges the training, test, subject, and activity data sets into one common dataset
-2. Subsets the complete dataset to create a new dataset with only those variables, which have the words "mean" or "std" (referring to mean and standard deviation)
-3. Removes all unnecesarry characters from the variable names to make them more readable
-4. Summarizes the merged datasets to calculate the mean of each variable, grouped by test subject and activity, to ultimately create a final 'tidyDataSet.txt'
+The script included with this Code Book does the following:  
+1. Merges the training, test, subject, and activity data sets into one common dataset  
+2. Subsets the complete dataset to create a new dataset with only those variables, which have the words "mean" or "std" (referring to mean and standard deviation)  
+3. Removes all unnecesarry characters from the variable names to make them more readable  
+4. Summarizes the merged datasets to calculate the mean of each variable, grouped by test subject and activity, to ultimately create a final 'tidyDataSet.txt'  
 
 
 ###Variables
 These variables indicate the average for each subject, in each activity, of each of the original mean variables in the merged training and test datasets.
 
 
-Subject
-Activity
-MeanTimeBodyAccMean-X
-MeanTimeBodyAccMean-Y
-MeanTimeBodyAccMean-Z
-MeanTimeBodyAccStdDev-X
-MeanTimeBodyAccStdDev-Y
-MeanTimeBodyAccStdDev-Z
-MeanTimeGravityAccMean-X
-MeanTimeGravityAccMean-Y
-MeanTimeGravityAccMean-Z
-MeanTimeGravityAccStdDev-X
-MeanTimeGravityAccStdDev-Y
-MeanTimeGravityAccStdDev-Z
-MeanTimeBodyAccJerkMean-X
-MeanTimeBodyAccJerkMean-Y
-MeanTimeBodyAccJerkMean-Z
-MeanTimeBodyAccJerkStdDev-X
-MeanTimeBodyAccJerkStdDev-Y
-MeanTimeBodyAccJerkStdDev-Z
-MeanTimeBodyGyroMean-X
-MeanTimeBodyGyroMean-Y
-MeanTimeBodyGyroMean-Z
-MeanTimeBodyGyroStdDev-X
-MeanTimeBodyGyroStdDev-Y
-MeanTimeBodyGyroStdDev-Z
-MeanTimeBodyGyroJerkMean-X
-MeanTimeBodyGyroJerkMean-Y
-MeanTimeBodyGyroJerkMean-Z
-MeanTimeBodyGyroJerkStdDev-X
-MeanTimeBodyGyroJerkStdDev-Y
-MeanTimeBodyGyroJerkStdDev-Z
-MeanTimeBodyAccMagMean
-MeanTimeBodyAccMagStdDev
-MeanTimeGravityAccMagMean
-MeanTimeGravityAccMagStdDev
-MeanTimeBodyAccJerkMagMean
-MeanTimeBodyAccJerkMagStdDev
-MeanTimeBodyGyroMagMean
-MeanTimeBodyGyroMagStdDev
-MeanTimeBodyGyroJerkMagMean
-MeanTimeBodyGyroJerkMagStdDev
-MeanFrequencyBodyAccMean-X
-MeanFrequencyBodyAccMean-Y
-MeanFrequencyBodyAccMean-Z
-MeanFrequencyBodyAccStdDev-X
-MeanFrequencyBodyAccStdDev-Y
-MeanFrequencyBodyAccStdDev-Z
-MeanFrequencyBodyAccJerkMean-X
-MeanFrequencyBodyAccJerkMean-Y
-MeanFrequencyBodyAccJerkMean-Z
-MeanFrequencyBodyAccJerkStdDev-X
-MeanFrequencyBodyAccJerkStdDev-Y
-MeanFrequencyBodyAccJerkStdDev-Z
-MeanFrequencyBodyGyroMean-X
-MeanFrequencyBodyGyroMean-Y
-MeanFrequencyBodyGyroMean-Z
-MeanFrequencyBodyGyroStdDev-X
-MeanFrequencyBodyGyroStdDev-Y
-MeanFrequencyBodyGyroStdDev-Z
-MeanFrequencyBodyAccMagMean
-MeanFrequencyBodyAccMagStdDev
-MeanFrequencyBodyAccJerkMagMean
-MeanFrequencyBodyAccJerkMagStdDev
-MeanFrequencyBodyGyroMagMean
-MeanFrequencyBodyGyroMagStdDev
-MeanFrequencyBodyGyroJerkMagMean
-MeanFrequencyBodyGyroJerkMagStdDev
-
+Subject  
+Activity  
+MeanTimeBodyAccMean-X  
+MeanTimeBodyAccMean-Y  
+MeanTimeBodyAccMean-Z  
+MeanTimeBodyAccStdDev-X  
+MeanTimeBodyAccStdDev-Y  
+MeanTimeBodyAccStdDev-Z  
+MeanTimeGravityAccMean-X  
+MeanTimeGravityAccMean-Y  
+MeanTimeGravityAccMean-Z  
+MeanTimeGravityAccStdDev-X  
+MeanTimeGravityAccStdDev-Y  
+MeanTimeGravityAccStdDev-Z  
+MeanTimeBodyAccJerkMean-X  
+MeanTimeBodyAccJerkMean-Y  
+MeanTimeBodyAccJerkMean-Z  
+MeanTimeBodyAccJerkStdDev-X  
+MeanTimeBodyAccJerkStdDev-Y  
+MeanTimeBodyAccJerkStdDev-Z  
+MeanTimeBodyGyroMean-X  
+MeanTimeBodyGyroMean-Y  
+MeanTimeBodyGyroMean-Z  
+MeanTimeBodyGyroStdDev-X  
+MeanTimeBodyGyroStdDev-Y  
+MeanTimeBodyGyroStdDev-Z  
+MeanTimeBodyGyroJerkMean-X  
+MeanTimeBodyGyroJerkMean-Y  
+MeanTimeBodyGyroJerkMean-Z  
+MeanTimeBodyGyroJerkStdDev-X  
+MeanTimeBodyGyroJerkStdDev-Y  
+MeanTimeBodyGyroJerkStdDev-Z  
+MeanTimeBodyAccMagMean  
+MeanTimeBodyAccMagStdDev  
+MeanTimeGravityAccMagMean  
+MeanTimeGravityAccMagStdDev  
+MeanTimeBodyAccJerkMagMean  
+MeanTimeBodyAccJerkMagStdDev  
+MeanTimeBodyGyroMagMean  
+MeanTimeBodyGyroMagStdDev  
+MeanTimeBodyGyroJerkMagMean  
+MeanTimeBodyGyroJerkMagStdDev  
+MeanFrequencyBodyAccMean-X  
+MeanFrequencyBodyAccMean-Y  
+MeanFrequencyBodyAccMean-Z  
+MeanFrequencyBodyAccStdDev-X  
+MeanFrequencyBodyAccStdDev-Y  
+MeanFrequencyBodyAccStdDev-Z  
+MeanFrequencyBodyAccJerkMean-X  
+MeanFrequencyBodyAccJerkMean-Y  
+MeanFrequencyBodyAccJerkMean-Z  
+MeanFrequencyBodyAccJerkStdDev-X  
+MeanFrequencyBodyAccJerkStdDev-Y  
+MeanFrequencyBodyAccJerkStdDev-Z  
+MeanFrequencyBodyGyroMean-X  
+MeanFrequencyBodyGyroMean-Y  
+MeanFrequencyBodyGyroMean-Z  
+MeanFrequencyBodyGyroStdDev-X  
+MeanFrequencyBodyGyroStdDev-Y  
+MeanFrequencyBodyGyroStdDev-Z  
+MeanFrequencyBodyAccMagMean  
+MeanFrequencyBodyAccMagStdDev  
+MeanFrequencyBodyAccJerkMagMean  
+MeanFrequencyBodyAccJerkMagStdDev  
+MeanFrequencyBodyGyroMagMean  
+MeanFrequencyBodyGyroMagStdDev  
+MeanFrequencyBodyGyroJerkMagMean  
+MeanFrequencyBodyGyroJerkMagStdDev  
